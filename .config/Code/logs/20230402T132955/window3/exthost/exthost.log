@@ -1,0 +1,14 @@
+2023-04-04 14:39:08.628 [info] Extension host with pid 11576 started
+2023-04-04 14:39:08.629 [info] Skipping acquiring lock for /home/danielazoccari/.config/Code/User/workspaceStorage/b6736c3888e9a69d6b2e2f511b1cd7ae.
+2023-04-04 14:39:08.795 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-04 14:39:08.856 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-04 14:39:09.020 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-04 14:39:09.196 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-04 14:39:09.472 [info] Eager extensions activated
+2023-04-04 14:39:09.585 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 14:39:09.619 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 14:39:09.695 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 14:39:10.029 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-04-04 14:39:10.675 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-04-04 14:39:14.991 [info] Extension host terminating: renderer closed the MessagePort
+2023-04-04 14:39:15.028 [info] Extension host with pid 11576 exiting with code 0

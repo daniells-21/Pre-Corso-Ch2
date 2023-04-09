@@ -1,0 +1,28 @@
+2023-03-29 14:43:59.092 [info] Electron sandbox mode is enabled!
+2023-03-29 14:44:21.004 [info] [perf] Render performance baseline is 387ms
+2023-03-29 14:55:37.057 [error] [Extension Host] grep: /usr/bin/X11: warning: recursive directory loop
+2023-03-29 14:55:37.274 [error] [Extension Host] grep: /usr/bin/X11: warning: recursive directory loop
+2023-03-29 14:55:37.594 [error] [Extension Host] grep: /usr/bin/X11: warning: recursive directory loop
+2023-03-29 14:56:02.097 [error] Cannot read properties of undefined (reading 'classList'): TypeError: Cannot read properties of undefined (reading 'classList')
+    at te.oc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:33704)
+    at te.nc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:33668)
+    at set message [as message] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:33636)
+    at te.setLoadingUriMessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:40314)
+    at te.wc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:34325)
+    at te.fc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:32236)
+    at te.setUri (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:32085)
+    at te.<anonymous> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:31608)
+    at g.invoke (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:2066)
+    at h.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:1704)
+    at I.setUri (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1143:25112)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2526:8005
+    at r.invokeFunction (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:610:360)
+    at v.k (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:2710)
+    at v.executeCommand (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:2272)
+    at lr.run (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:642:16513)
+    at D.runAction (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:14962)
+    at D.run (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:86:14873)
+    at p.l (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1192:36404)
+    at Object.click (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1192:36039)
+    at Function.c (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:553:33572)

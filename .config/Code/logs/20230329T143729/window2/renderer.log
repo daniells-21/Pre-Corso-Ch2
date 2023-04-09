@@ -1,0 +1,4 @@
+2023-03-29 14:37:31.566 [info] Electron sandbox mode is enabled!
+2023-03-29 14:37:41.998 [info] [perf] Render performance baseline is 149ms
+2023-03-29 14:37:49.563 [error] Could not find category with ID: undefined: Error: Could not find category with ID: undefined
+    at Pc.makeCategoryVisibleWhenAvailable (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2526:54788)

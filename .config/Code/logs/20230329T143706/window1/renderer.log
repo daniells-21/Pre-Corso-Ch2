@@ -1,0 +1,5 @@
+2023-03-29 14:37:10.496 [info] Electron sandbox mode is enabled!
+2023-03-29 14:37:13.244 [info] Started initializing default profile extensions in extensions installation folder. file:///home/danielazoccari/.vscode/extensions
+2023-03-29 14:37:15.907 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/danielazoccari/.vscode/extensions Unable to create file 'vscode-userdata:/home/danielazoccari/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-03-29 14:37:15.908 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/danielazoccari/.vscode/extensions
+2023-03-29 14:37:23.605 [info] [perf] Render performance baseline is 289ms
