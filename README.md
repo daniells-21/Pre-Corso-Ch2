@@ -1,2 +1,3 @@
-# Pre-Corso-Ch2
-# Pre-Corso-Ch2
+# Pre-Corso-Epicode
+Raccolta esercitazioni pre-corso Epicode per Web Developer
+
