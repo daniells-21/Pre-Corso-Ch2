@@ -1,0 +1,23 @@
+2023-04-15 10:49:36.369 [info] Log level: Info
+2023-04-15 10:49:36.369 [info] Validating found git in: "git"
+2023-04-15 10:49:36.369 [info] Using git "2.30.2" from "git"
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [69ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-04-15 10:49:36.369 [info] Open repository: /home/danielazoccari
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [42ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [11ms]
+2023-04-15 10:49:36.369 [info] > git config --get commit.template [68ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [20ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-15 10:49:36.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [259ms]
+2023-04-15 10:49:36.369 [info] > git status -z -uall [379ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [118ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [1003ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [51ms]
+2023-04-15 10:49:36.369 [info] > git config --get commit.template [115ms]
+2023-04-15 10:49:36.369 [info] > git check-ignore -v -z --stdin [183ms]
+2023-04-15 10:49:36.369 [info] > git rev-parse --show-toplevel [124ms]
+2023-04-15 10:49:36.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [51ms]
+2023-04-15 10:49:36.369 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n133 -- /home/danielazoccari/Pre-Corso.Ch2/registrazione.html [72ms]
+2023-04-15 10:49:36.972 [info] > git status -z -uall [744ms]

@@ -1,0 +1,22 @@
+2023-04-16 16:21:15.320 [info] [SharedProcess] using utility process
+2023-04-16 16:21:15.614 [info] update#setState idle
+2023-04-16 16:21:18.330 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-04-16 16:21:18.398 [info] [UtilityProcess id: 1, type: extensionHost, pid: 4129]: successfully created
+2023-04-16 16:21:18.970 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-04-16 16:21:18.980 [info] [UtilityProcess type: shared-process, pid: 4140]: successfully created
+2023-04-16 16:21:18.988 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-04-16 16:21:19.001 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 4141]: successfully created
+2023-04-16 16:21:45.617 [info] update#setState checking for updates
+2023-04-16 16:21:45.671 [info] update#setState available for download
+2023-04-16 16:23:55.890 [info] update#setState idle
+2023-04-16 16:33:33.866 [warning] Sending IPC message to channel 'vscode:reportError' for window that is destroyed
+2023-04-16 16:33:33.867 [error] [uncaught exception in main]: TypeError: Object has been destroyed
+2023-04-16 16:33:33.868 [error] TypeError: Object has been destroyed
+    at g.send (node:electron/js2c/browser_init:169:2647)
+    at Function.callback (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:16:79559)
+2023-04-16 16:33:34.220 [info] [UtilityProcess id: 1, type: extensionHost, pid: 4129]: waiting to exit...
+2023-04-16 16:33:34.232 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 4141]: attempting to kill the process...
+2023-04-16 16:33:34.234 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 4141]: successfully killed the process
+2023-04-16 16:33:34.275 [info] [UtilityProcess id: 1, type: extensionHost, pid: 4129]: received exit event with code 0
+2023-04-16 16:33:34.276 [info] Extension host with pid 4129 exited with code: 0, signal: unknown.
+2023-04-16 16:33:34.357 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 4141]: received exit event with code 0

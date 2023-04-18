@@ -1,0 +1,19 @@
+2023-04-17 13:33:55.909 [error] [uncaught exception in sharedProcess]: A system error occurred (getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com): Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+2023-04-17 14:15:27.635 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 14:31:48.445 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 14:51:11.055 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 22:17:53.604 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 22:40:19.068 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 23:21:50.531 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 23:28:25.998 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-17 23:48:06.465 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-18 06:26:58.343 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-18 13:39:09.665 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-18 13:39:17.378 [error] [uncaught exception in sharedProcess]: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:yo-wifi.net, DNS:analytics-wifi.net, DNS:cp-mon-wifi.net, DNS:cp1-wifi.net, DNS:cp2-wifi.net, DNS:cp4-wifi.net, DNS:cp5-wifi.net, DNS:cp6-wifi.net, DNS:cp7-wifi.net, DNS:yo-channel-wifi.net, DNS:yo-channelcp-wifi.net: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:yo-wifi.net, DNS:analytics-wifi.net, DNS:cp-mon-wifi.net, DNS:cp1-wifi.net, DNS:cp2-wifi.net, DNS:cp4-wifi.net, DNS:cp5-wifi.net, DNS:cp6-wifi.net, DNS:cp7-wifi.net, DNS:yo-channel-wifi.net, DNS:yo-channelcp-wifi.net
+    at new NodeError (node:internal/errors:371:5)
+    at Object.checkServerIdentity (node:tls:346:12)
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1540:27)
+    at TLSSocket.emit (node:events:526:28)
+    at TLSSocket._finishInit (node:_tls_wrap:944:8)
+    at ssl.onhandshakedone (node:_tls_wrap:725:12)

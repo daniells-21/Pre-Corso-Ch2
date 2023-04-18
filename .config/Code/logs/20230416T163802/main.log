@@ -1,0 +1,21 @@
+2023-04-16 16:38:02.918 [info] [SharedProcess] using utility process
+2023-04-16 16:38:03.384 [info] update#setState idle
+2023-04-16 16:38:07.782 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-04-16 16:38:07.892 [info] [UtilityProcess id: 1, type: extensionHost, pid: 5784]: successfully created
+2023-04-16 16:38:07.954 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-04-16 16:38:07.979 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-04-16 16:38:08.015 [info] [UtilityProcess type: shared-process, pid: 5785]: successfully created
+2023-04-16 16:38:08.024 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 5786]: successfully created
+2023-04-16 16:38:33.384 [info] update#setState checking for updates
+2023-04-16 16:38:33.413 [info] update#setState available for download
+2023-04-16 16:48:57.841 [warning] Sending IPC message to channel 'vscode:reportError' for window that is destroyed
+2023-04-16 16:48:57.872 [error] [uncaught exception in main]: TypeError: Object has been destroyed
+2023-04-16 16:48:57.872 [error] TypeError: Object has been destroyed
+    at g.send (node:electron/js2c/browser_init:169:2647)
+    at Function.callback (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:16:79559)
+2023-04-16 16:48:57.939 [info] [UtilityProcess id: 1, type: extensionHost, pid: 5784]: waiting to exit...
+2023-04-16 16:48:57.940 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 5786]: attempting to kill the process...
+2023-04-16 16:48:57.944 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 5786]: successfully killed the process
+2023-04-16 16:48:57.990 [info] [UtilityProcess id: 1, type: extensionHost, pid: 5784]: received exit event with code 0
+2023-04-16 16:48:58.023 [info] Extension host with pid 5784 exited with code: 0, signal: unknown.
+2023-04-16 16:48:58.050 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 5786]: received exit event with code 0

@@ -9,12 +9,7 @@
     "profileAssociationsMigration": true,
     "telemetry.machineId": "1893cb1d188113f14d10bb579b3ce51804871d719ee373763a3bdb83736e76b6",
     "backupWorkspaces": {
-        "workspaces": [
-            {
-                "id": "b6736c3888e9a69d6b2e2f511b1cd7ae",
-                "configURIPath": "file:///home/danielazoccari/.config/Code/Workspaces/1680611945355/workspace.json"
-            }
-        ],
+        "workspaces": [],
         "folders": [
             {
                 "folderUri": "file:///home/danielazoccari"
@@ -27,11 +22,11 @@
             "folder": "file:///home/danielazoccari",
             "backupPath": "/home/danielazoccari/.config/Code/Backups/4b1c382b9ccb8e1062d42c19651cac11",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 0,
-                "y": 57,
+                "y": 16,
                 "width": 1200,
-                "height": 686
+                "height": 768
             }
         },
         "openedWindows": []
@@ -56,7 +51,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 261,
+            "sideBarWidth": 216,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -173,6 +168,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -240,8 +242,9 @@
                                     }
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Turn on Settings Sync..."
+                                    "id": "workbench.userDataSync.actions.manage",
+                                    "label": "Settings Sync is On",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -520,8 +523,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -737,7 +739,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -758,7 +761,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1418,6 +1422,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorUp": {
+                "label": "Ctrl+K Ctrl+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
             "workbench.action.splitEditorInGroup": {
                 "label": "Ctrl+K Ctrl+Shift+\\",
                 "isNative": false,
@@ -1631,10 +1640,6 @@
                 "label": "Ctrl+K Ctrl+R",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+r"
-            },
-            "workbench.action.toggleDevTools": {
-                "label": "Ctrl+Shift+I",
-                "userSettingsLabel": "ctrl+shift+i"
             }
         }
     },
